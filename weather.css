@@ -1,0 +1,146 @@
+/* MOBILE */
+@media (max-width: 768px) {
+    #searcharea { width: 90%; display: block; margin: 10px auto; }
+    #searchbutton { width: 50%; display: block; margin: 10px auto; }
+    .weathercard { width: 95% !important; margin: 20px auto !important; }
+    .imagesection, .imagesection2 { flex-direction: column !important; gap: 10px !important; }
+    .weathericon { margin-left: 0 !important; }
+}
+
+/* TABLET */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .weathercard { width: 85% !important; margin: 20px auto !important; }
+    #searcharea { width: 60%; }
+}
+/* DESKTOP */
+@media (min-width: 1025px) {
+    .weathercard { margin-left: 450px; width: 550px; }
+}
+body{
+    background-color: #020024;
+  }
+section{
+      background: #020024;
+      background-color: #252438;
+      text-align: center;
+      justify-content: center;
+      border-radius: 10px;
+      width: 100%;
+      color: white;
+      margin-bottom: 20px;
+}
+#searcharea{
+      width: 30%;
+      height: 30px;
+      border-radius: 8px;
+}
+#searcharea:hover{
+      transform: scale(1.04);
+      background-color: #ec841d;
+      color: white;
+}
+#searchbutton{
+      height: 30px;
+      border-radius: 5px;
+      margin-left: 2%;
+      cursor: pointer;
+      color: rgb(10, 10, 9);
+      width: 4%;
+      background-color: #ec841d;
+      width: 100px;
+      height: 40px;
+      
+}
+#searchbutton:hover{
+      background-color: rgb(236, 134, 33);
+      transform: scale(1.2);
+}
+/* css for html used in java script*/
+   
+
+/* Main card */
+.weathercard {
+    background: #ffffff;
+    width: 550px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 450px;
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background-image:url("https://images.unsplash.com/photo-1501630834273-4b5604d2ee31"),
+    radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* City & date container */
+.citydate {
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    background: #2e27ba;
+    background: linear-gradient(90deg, rgba(46, 39, 186, 1) 0%, rgba(9, 9, 121, 1) 0%, rgb(164, 177, 180) 100%);
+}
+
+.citydate h1 {
+    margin: 0;
+    font-size: 24px;
+    color: rgb(255, 1, 1);
+}
+
+.citydate p {
+    margin: 5px 0 0;
+    color: rgb(12, 5, 6);
+}
+
+/* for weather icon*/
+.weathericon {
+    width: 120px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+  
+}
+
+.weatherdetails {
+    background: #2e27ba;
+    background: linear-gradient(90deg, rgba(46, 39, 186, 1) 0%, rgba(9, 9, 121, 1) 0%, rgb(164, 177, 180) 100%);
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.weatherdetails p {
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    color: rgb(1, 37, 11);
+}
+.imagesection{
+      display: flex;
+      justify-content: center;
+      gap: 120px;
+      
+}
+.imagesection2{
+      display: flex;
+      justify-content: center;   
+      gap: 140px;
+}
+
+
+
+
+
+
+
