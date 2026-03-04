@@ -119,6 +119,7 @@ Get your API key from:
 ## 💻 Frontend Features
 
 * Async/Await fetch handling
+* Check the frontend https://weathersansarapi.infinityfreeapp.com/
 * Try/Catch error handling
 * LocalStorage caching per city
 * Enter key support for search
